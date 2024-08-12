@@ -1,0 +1,69 @@
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: bg 3s infinite linear;
+    /* name time repetation delay */
+}
+/* > -child selector changes is only appled for child */
+section > div{
+    background-color: hotpink;
+    width: 30%;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+section>div>h2{
+     font-size: 4rem;
+     /*1rem :60px */
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+section>div>button{
+    width: 20%;
+    height: 3rem;
+    font-size: 1rem;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    /* background-color: rgb(136, 129, 129); */
+}
+section>div>button:active{
+    background-color: rgb(191, 186, 186);
+}
+
+@media(max-width:600px){
+    section>div{
+        width: 50%;
+    }
+    section>div>h2{
+        font-size: 1rem;
+    }
+    section>div>button{
+        width: 33%;
+        font-size: 1rem;
+        height: 2rem;
+    }
+}
+
+@keyframes bg{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: greenyellow;
+
+    }
+    100%{
+        background-color: orange;
+    }
+}
