@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+form>div{
+    width: 30%;
+    height: 40%;
+    background-color: orange;
+    text-align: center;
+    padding-top: 4rem;
+}
+form>div>input{
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+form>div>button{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 10, 217);
+    color: white;
+}
+form>div>button:active{
+    background-color: rgb(142, 142, 238);
+}
