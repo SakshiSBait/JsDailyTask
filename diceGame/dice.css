@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section>div{
+   width: 30%;
+  background-color: rgb(112, 22, 214);
+  height: 40%;
+  text-align: center;
+
+}
+section>div>div{
+    margin-top: 5rem;
+    display: flex;
+    margin-left: 8rem;
+}
+section>div>div>div{
+    margin-left: 2rem;
+}
+#start{
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+h3{
+    color:white
+}
+h1{
+    color: white;
+}
+p{
+    color:white
+}
